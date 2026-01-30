@@ -14,7 +14,8 @@
         width: 30%;
         height: 100%;
     }
-    section#login > div#formalário{
+
+    section#login > div#formulário{
         float: right;
         width: 70%;
     }
@@ -30,12 +31,22 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width:50%;
         height: 100%;
     }
+
     section#login > div#formulário{
-        float: right;
+        float: left;
         width: 50%;
+
+    }
+
+    div#formulário > h1{
+        font-size: 2em;
+    }
+    
+    div#formulário > p{
+        font-size: 1.2em;
     }
 }
